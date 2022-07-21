@@ -5,6 +5,8 @@
 }
 :root{
   --primary: #146E24;
+  --secondary: #8BC820;
+
   --white: #fff;
   --normal:400;
   --bold: 700;
@@ -23,7 +25,7 @@ html {
  
 }
 ul{
-  text-decoration: none;
+  list-style-type: none;
 }
 h1{
  font-size: 3.5rem

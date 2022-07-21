@@ -10,7 +10,7 @@ import Services from "./pages/Services/Services";
 function App() {
   return (
     <div className="App">
-       <Navbar /> 
+        <Navbar />  
          <main>
         <Switch>
          
