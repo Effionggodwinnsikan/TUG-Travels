@@ -1,8 +1,11 @@
 import React from 'react'
+import Whatsappchat from "../../components/Whatsappchat/Whatsappchat"
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+      <Whatsappchat/>
+    </div>
   )
 }
 

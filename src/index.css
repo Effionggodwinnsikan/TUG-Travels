@@ -45,6 +45,41 @@ button{
   color: #fff;
   cursor: pointer;
 }
+button:hover {
+  background:var(--secondary);
+    border: 1px solid var(--primary)
+}
+.slick-slider{
+  height: 100vh;
+}
+.slick-dots
+{
+    position: absolute;
+    top: 90%;
+    z-index: 5;
+   
+}
+.slick-dots li button:before
+{
+  font-size: .7rem !important;
+    opacity: .25;
+    color: white !important;
+
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color:var(--secondary) !important;
+}
+.slick-prev,
+.slick-next
+{
+    display: none !important;
+
+}
+.slick-next {
+  right: 0 !important;
+}
 
 
 @media (max-width: 940px){

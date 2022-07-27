@@ -1,0 +1,33 @@
+.Ourservicesimg1{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:2rem;
+    
+}
+.Ourservicesimg{
+    width: 100%;
+    background: #fff;
+    padding: 3rem ;
+   
+    
+}
+
+/* .servicesContainer h2{
+    margin: 2rem auto;
+    justify-content: center;
+    text-align: center;
+    color: #1E1E1E;
+    
+    
+   
+} */
+
+@media (max-width: 940px){
+    .Ourservicesimg1{
+        
+        grid-template-columns: 1fr;
+        
+        
+    }
+}
+

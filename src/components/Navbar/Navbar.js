@@ -12,6 +12,8 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => setNav(!nav);
 
+  
+
   return (
     <div className={Classes.navbar}>
       <div className={classes.logo}>
@@ -79,7 +81,9 @@ const Navbar = () => {
         </ul>
         <div className={Classes.mobileMenuBottom}>
           <div className={Classes.menuIcons}>
+            <a href="http://wa.link/za74gk">
             <button>click to chat on whatsapp</button>
+            </a>
           </div>
           <div className={Classes.socialIcons}>
             <FaFacebook className={Classes.icon} />

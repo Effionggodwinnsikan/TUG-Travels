@@ -5,7 +5,7 @@ import Contact from "./pages/Contact/Contact";
 import About from "./pages/About/About";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import Services from "./pages/Services/Services";
+import Ourservices from "./pages/Ourservices/Ourservices";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
            <Route path="/" exact component={Home} />
           <Route path="/about" exact component={About} />
           <Route path="/contact" exact component={Contact} />
-          <Route path="/services" exact component={Services} />
+          <Route path="/services" exact component={Ourservices} />
           
           
         </Switch>

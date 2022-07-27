@@ -1,0 +1,22 @@
+.icon{
+   font-size:5rem;
+    background:white ; 
+   color: var(--primary);
+  
+}
+.Whatsappchat{
+    position:fixed;
+    bottom: 0;
+    right: 0;
+}
+.Whatsappchat p{
+    color: var(--primary);
+  text-align: center;
+}
+
+@media (max-width: 540px){
+    .icon{
+
+        font-size:3rem;
+    }
+}
