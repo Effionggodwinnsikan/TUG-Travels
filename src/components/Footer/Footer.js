@@ -29,7 +29,10 @@ const Footer = () => {
               study offers.
             </p>
             <div className={Classes.section}>
-              <a href="https://www.google.com/maps/place/8+Safebirth+St,+Fadeyi+102215,+Lagos/@6.5278426,3.3646269,17z/data=!3m1!4b1!4m5!3m4!1s0x103b8db24ddf5aa7:0x23d15157e56801de!8m2!3d6.5278373!4d3.3668156">
+              <a
+                href="https://www.google.com/maps/place/8+Safebirth+St,+Fadeyi+102215,+Lagos/@6.5278426,3.3646269,17z/data=!3m1!4b1!4m5!3m4!1s0x103b8db24ddf5aa7:0x23d15157e56801de!8m2!3d6.5278373!4d3.3668156"
+                className={Classes.section}
+              >
                 <img src={Logo3} alt="/" className={Classes.icon} />
                 <p>8, Safebirth Street, Fadeyi, Lagos, Nigeria.</p>
               </a>
