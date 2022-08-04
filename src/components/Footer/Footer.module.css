@@ -1,0 +1,80 @@
+.Footer {
+    background:#fff;
+    width: 100%;
+    
+}
+.footerContainer{
+     background:var(--primary);
+     padding:4rem 3rem 1rem; 
+    
+    
+}
+.space{
+    width: 100%;
+    height: 15vh;
+}
+.cover{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    gap: 1rem;
+    padding-bottom: 1rem;
+   
+
+}
+.contact p{
+    width: 90%;
+}
+.cover p{
+    color: #fff;
+    width:100% ;
+    font-size:.9rem;
+    margin: 1rem  0;
+}
+.cover h4{
+    color: #fff;
+}
+.logo{
+    margin-left: -2rem;
+    width:60%;
+}
+.section{
+    display:flex;
+    padding: .5rem 0;
+  
+
+}
+.section p{
+    margin-left: .7rem;
+    width: 100%;
+}
+.icons{
+    width: 25%;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 1rem;
+}
+.copyright{
+    display: flex;
+    color: #fff;
+    width: 100%;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.icon:hover{
+    transform:scale(1.5);
+    transition: 0.3s;
+    cursor: pointer;
+}
+@media (max-width: 940px){
+    .cover{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width: 768px){
+    .cover{
+        grid-template-columns: 1fr;
+        width: 100%;
+        justify-content: center;
+    }
+}

@@ -6,7 +6,8 @@ import About from "./pages/About/About";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Ourservices from "./pages/Ourservices/Ourservices";
-
+import Carousel from "./components/Carousel/carousel"
+import Partners from "./components/Partners/Partners"
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,8 @@ function App() {
           
         </Switch>
       </main>  
+      <Carousel/>
+      <Partners/>
        <Footer />    
       
     </div>

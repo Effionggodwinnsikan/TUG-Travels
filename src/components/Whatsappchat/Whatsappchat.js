@@ -5,7 +5,7 @@ import Classes from "./Whatsappchat.module.css"
 const Whatsappchat = () => {
   return (
     <div className={Classes.Whatsappchat}>
-        <a href="http://wa.link/za74gk">
+        <a href="https://wa.me/message/5N5WVJDTALXGC1">
         <FaWhatsappSquare className={Classes.icon} />
         <p>chat </p>
         </a>

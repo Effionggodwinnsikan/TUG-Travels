@@ -18,10 +18,12 @@ body {
   overflow-x: hidden;
   max-width: 1450px;
   margin: auto;
+  color: #1E1E1E;
 }
 
 html {
   font-family: "DM sans", sans-serif;
+
  
 }
 ul{
@@ -63,7 +65,7 @@ button:hover {
 {
   font-size: .7rem !important;
     opacity: .25;
-    color: white !important;
+    color:var(--primary) !important;
 
 }
 .slick-dots li.slick-active button:before
@@ -80,6 +82,7 @@ button:hover {
 .slick-next {
   right: 0 !important;
 }
+
 
 
 @media (max-width: 940px){

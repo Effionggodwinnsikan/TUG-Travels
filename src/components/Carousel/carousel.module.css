@@ -1,0 +1,43 @@
+.carousel {
+    width: 100%;
+    
+    
+}
+
+.carousel h2{
+   margin: 2rem auto;
+   width: 60%;
+   text-align: center;
+}
+.slider1{
+    width: 100%;
+    justify-content:center;
+    align-items:center;
+   height: 23rem;
+   
+   
+}
+.carouselCard{
+    border:1px solid var(--primary);
+     width:10%; 
+    text-align: center;
+    padding: 2rem  .5rem;
+    border-radius: 10px;
+    height: 17rem;
+    box-shadow:   0px 10px 60px rgba(38, 45, 118, 0.09);
+
+}
+.carouselCard img{
+   margin:0 auto;
+   padding: .5rem 0 0 .5rem;
+}
+.testify img{
+    width:10%; 
+    
+}
+.testify p{
+    padding-top: .5rem;
+}
+.slick-track{
+  margin:0 2rem;
+}

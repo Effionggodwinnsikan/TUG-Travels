@@ -4,13 +4,18 @@
    color: var(--primary);
   
 }
+.icon:hover{
+    transform:scale(1.5);
+    transition: 0.3s;
+    cursor: pointer;
+}
 .Whatsappchat{
     position:fixed;
     bottom: 0;
     right: 0;
 }
 .Whatsappchat p{
-    color: var(--primary);
+    color: var(--secondary);
   text-align: center;
 }
 

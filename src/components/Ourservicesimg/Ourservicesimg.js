@@ -7,6 +7,7 @@ import Logo3 from "../../asset/scholarship image.svg";
 import Logo4 from "../../asset/ticket image.svg";
 import Logo5 from "../../asset/private coaching.svg";
 import Logo6 from "../../asset/exam image.svg";
+import Logo7 from "../../asset/immigration.svg";
 import Servicesimg from "../Servicesimg/Servicesimg";
 
 const Ourservicesimg = () => {
@@ -47,6 +48,11 @@ const Ourservicesimg = () => {
           bgImg={Logo6}
           text="Int’l Exams Registration & Preparation"
           content="We deal with international examinations such as TOEFL, SAT, IELTS, GRE, etc. We also help in preparing you adequately."
+        />
+         <Servicesimg
+          bgImg={Logo7}
+          text="Immigration Travel"
+          content="We help you with your traavelling proccess with any country of your choice."
         />
         </div>
     </div>

@@ -13,7 +13,7 @@
 }
 
 .servicesContainer h2{
-    margin: 2rem auto;
+    margin: 1rem auto 2rem;
     justify-content: center;
     text-align: center;
     color: #1E1E1E;
@@ -46,7 +46,9 @@
     }
     .seeAll h4{
        
-        bottom:0;
+        top:1.2%;
+        right:13%;
+        font-size:.9rem
         
     }
 }
