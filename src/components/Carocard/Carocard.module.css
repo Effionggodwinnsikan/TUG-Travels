@@ -1,0 +1,57 @@
+.carouselCard{
+    border:1px solid var(--primary);
+     width:90%; 
+    text-align: center;
+    padding: 2rem  .5rem;
+    border-radius: 10px;
+    height: 17rem;
+    box-shadow:   0px 10px 60px rgba(38, 45, 118, 0.09);
+    margin:0 4rem;
+
+}
+.carouselCard img{
+   margin:0 auto;
+   padding: .5rem 0 0 .5rem;
+}
+.testify img{
+    width:10%; 
+    
+}
+.testify p{
+    padding-top: .5rem;
+}
+.slider1{
+    width: 100%; 
+    justify-content:center;
+    align-items:center;
+   height: 23rem;  
+   
+}
+@media(max-width:768px){
+    .carouselCard{
+         width:90%; 
+       
+        
+    }
+}
+@media(max-width:540px){
+    .carouselCard{
+         width:90%; 
+       
+        
+    }
+}
+@media(max-width:427px){
+    .carouselCard{
+         width:95%; 
+       
+        
+    }
+}
+@media(max-width:375px){
+    .carouselCard{
+         width:80%; 
+        
+        
+    }
+}
