@@ -1,6 +1,6 @@
 import React from 'react'
 import Classes from "./Partners.module.css"
-import Logo from "../../asset/Haliç_Üniversitesi_logo 1.svg"
+import Logo from "../../asset/halic-university.svg"
 import Logo1 from "../../asset/rauf-denktask-university.svg"
 import Logo2 from "../../asset/University_warschaw-removebg-preview 1 (1).svg"
 import Logo3 from "../../asset/cyprus_west-university.svg"
